@@ -1,3 +1,4 @@
+// creating a framwork array - read only
 export const frameworks = [
   "react",
   "chrome",
@@ -10,4 +11,5 @@ export const frameworks = [
   "svelte",
 ] as const;
 
+// creating a type Framework
 export type Framework = (typeof frameworks)[number];

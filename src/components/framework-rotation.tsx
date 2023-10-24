@@ -1,8 +1,14 @@
+// packages
 import Image from "next/image";
+
+// components
+
+// utils
 import { assets } from "@/utils/asset-utils";
 import { type Framework, frameworks } from "@/utils/framework-utils";
 import { cn } from "@/utils/tailwind-utils";
 
+// framework rotation component
 export const FrameworkRotation = ({
   currentFramework,
 }: {
